@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Software needs to be more expansive
+title: Software needs to be more expensive
 tags: open-source software thoughts
 redirect_url: https://blog.glyph.im/2024/03/software-needs-to-be-more-expensive.html
 ---
