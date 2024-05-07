@@ -1,0 +1,15 @@
+.post-tags {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+
+.post-tags > li {
+  background-color: lightgray;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: small;
+  list-style: none;
+  margin: 0 2px;
+  padding: 0 5px;
+}
