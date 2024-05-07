@@ -32,6 +32,7 @@ linkedin_username: benoit-godard-0b40a7122
 
 # Build settings
 theme: minima
+show_excerpts: true
 plugins:
   - jekyll-feed
 # Exclude from processing.
