@@ -13,3 +13,16 @@
   margin: 0 2px;
   padding: 0 5px;
 }
+
+.post-embed {
+  max-width: 100%;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+
+hr {
+  margin: 10px 0;
+  border: none;
+  height: 1px;
+  background-color: #00000036;
+}

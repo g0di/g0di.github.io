@@ -2,7 +2,7 @@
 layout: post
 title: The first software jobs AI will replace are...
 tags: video software thoughts A.I
-redirect_url: https://www.youtube.com/watch?v=8SuH2PfXOn8
+youtube: 8SuH2PfXOn8
 ---
 
 An interesting short video of Dave Farley, interviewing Birgitta Böckeler, and discussing which software related jobs A.I may replace first.

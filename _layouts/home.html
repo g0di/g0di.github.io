@@ -21,8 +21,15 @@ layout: default
           <li>{{ tag }}</li>
           {% endfor %}
         </ul>
+
+        {%- if post.youtube -%}
+          <iframe class="post-embed" width="560" height="315" src="https://www.youtube.com/embed/{{ post.youtube }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        {%- endif -%}
+
         <h3>
-          {% if post.redirect_url %}
+          {% if post.youtube %}
+          <a class="post-link" href="https://www.youtube.com/watch?v={{ post.youtube }}" target="_blank" rel="external">
+          {% elsif post.redirect_url %}
           <a class="post-link" href="{{ post.redirect_url }}" target="_blank" rel="external">
           {% else %}
           <a class="post-link" href="{{ post.url | relative_url }}">
@@ -31,9 +38,11 @@ layout: default
             <i class="fa fa-envelope"></i>
           </a>
         </h3>
+
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
+
       </li>
       {%- endfor -%}
     </ul>
