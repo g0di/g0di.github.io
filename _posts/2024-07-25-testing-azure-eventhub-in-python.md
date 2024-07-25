@@ -117,7 +117,6 @@ import asyncio
 
 from azure.eventhub.aio import EventHubProducerClient
 
-from validator_fap.adapters.notifier import AzureEventHubNotifier
 
 con_string = "Endpoint=sb://localhost:5672;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=SAS_KEY_VALUE;UseDevelopmentEmulator=true;"
 
@@ -402,7 +401,3 @@ Lot of stuff out there but basically:
 3. We create another `events` fixture which takes advantage of the fact that code inside functions using `yield` statements (generators and async generators) are not executed until the generator is being consumed. Here, the `events` fixture immediately start receiving events in the background and push them into a queue. The fixture yield the result of the `collect_events()` function which itself returns a generator.
 4. Our test use the `events` fixture which starts receiving events in the background and gives us a generator that will yield received events
 5. After setting up our test data, we send an event, wait a couple of second for the event to be received and finally consume our events generator to compare with what we sent
-
-## Conclusion
-
-The techniques seen here are not tied to Azure Eventhub, you can apply it with other message brokers
