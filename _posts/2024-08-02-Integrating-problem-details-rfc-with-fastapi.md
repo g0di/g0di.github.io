@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Integrating Problem Details RFC with FastAPI
-tags: python library
+tags: python library api
 ---
 
 During my past development projects, I built a lot of HTTP APIs using various langages (TypeScript, JavaScript, Python) and frameworks (fastify, FastAPI, flask, express). One thing I've noticed is that each of those frameworks have their own way of shaping HTTP error responses. This is actually not a big deal considering that most clients (i.e: HTTP clients) do not really rely on strict structure for such errors.
