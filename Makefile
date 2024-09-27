@@ -1,3 +1,6 @@
+.PHONY: install
+install:
+	bundle install
 
 .PHONY: serve
 serve:
