@@ -1,0 +1,15 @@
+[project]
+name = "g0di.github.io"
+version = "0.1.0"
+description = "Yet Another Dev's Blog"
+authors = [{ name = "g0di", email = "benoit.godard.p@gmail.com" }]
+dependencies = ["pelican[markdown]>=4.10.1", "invoke>=2.2.0"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.scripts]
+start = "pelican -r -l"

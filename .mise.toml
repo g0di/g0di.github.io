@@ -1,2 +1,2 @@
 [tools]
-ruby = "latest"
+python = "3.11"

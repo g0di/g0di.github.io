@@ -1,8 +1,5 @@
----
-layout: post
-title: "Debugger doesn't stop at breakpoints with pytest if pytest-cov is used"
-tags: python troubleshooting pytest
----
+Title: Debugger doesn't stop at breakpoints with pytest if pytest-cov is used
+Tags: python, troubleshooting, pytest
 
 Recently, while trying to debug some of my `pytest` tests using VSCode, I discovered that my breakpoints were completely ignored and the tests never stopped. After nearly breaking my keyboard in frustration, I stumbled upon [this GitHub issue](https://github.com/microsoft/vscode-python/issues/693).
 
@@ -59,7 +56,5 @@ Add the following to your `settings.json`:
   // Other settings...
 }
 ```
-
----
 
 This should help ensure your breakpoints are hit when debugging pytest tests in VSCode, without the interference of code coverage tools.
