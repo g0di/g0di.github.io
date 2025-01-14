@@ -36,5 +36,4 @@ MENUITEMS = (
     ('Curated', '/category/curated.html'),
     ('Tags', '/tags.html'),
     ('About me', '/pages/about.html'),
-    ('Test', '/pages/test.html'),
 )
