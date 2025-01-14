@@ -7,7 +7,7 @@ DEFAULT_DATE_FORMAT = '%Y-%m-%d'
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 JINJA_FILTERS = { "urljoin": urljoin }
-LINKS = ()
+LINKS = (('fastapi-problem-details', 'https://github.com/g0di/fastapi-problem-details'),)
 MENUITEMS = (
     ('Articles', '/category/articles.html'),
     ('Curated', '/category/curated.html'),
