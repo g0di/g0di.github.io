@@ -1,11 +1,18 @@
-- Add picture of myself in about page
-- Add more personal description in about page (hobbies? family?)
-- Find a way to group pages by folder and show the structure on generated website
-- rename files to .md instead of .markdown
-- update the 404 file to provide a more funny message
-- write a first article
-- write a first page
+- About page
+  - Add picture of myself in about page
+  - mention my public projects
+  - Add more personal description in about page (hobbies? family?)
+  - Mention how to contact me
 - add a page showing my CV
-  - Find a way to generate the CV from data stored in a yml file
-- add a contact page
-- change the theme to something more cyberpunk (dark theme, neon, geek, hack)
+  - Find if I can embed my europass CV
+- create an additional TIL category for short articles, leaves the "Articles" category for bigger ones
+- Find out how to have a global feed with all articles, curated and TIL
+- Add comment section (disqus)
+- Publish on github pages
+- Update all curated articles with real authors and URL
+- Add a page listing all tags
+- Add a guides page
+  - Include my guides from Euroclear
+- Set curated articles date to the original date at which the author published it
+  - And add a custom "date" for ordering article as I discovered them
+- Prefix all articles URL with their category
