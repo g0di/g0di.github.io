@@ -19,14 +19,14 @@ DELETE_OUTPUT_DIRECTORY = True
 # Following items are often useful when publishing
 
 # DISQUS_SITENAME = ""
-ANALYTICS = """
+ANALYTICS = """    
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XWB36N1RBR"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q6BVKYG327"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-XWB36N1RBR');
+        gtag('config', 'G-Q6BVKYG327');
     </script>
 """
