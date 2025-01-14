@@ -8,6 +8,8 @@ TIMEZONE = 'Europe/Paris'
 THEME= 'notmyidea'
 
 DEFAULT_LANG = 'en'
+DEFAULT_DATE_FORMAT = '%Y-%m-%d'
+DEFAULT_PAGINATION = 10
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -27,12 +29,12 @@ SOCIAL = (
     ("LinkedIn", "https://www.linkedin.com/in/benoit-godard-0b40a7122"),
 )
 
-# GITHUB_URL = "https://github.com/g0di"
-
-DEFAULT_PAGINATION = 20
-
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
-
-# code blocks with line numbers
-PYGMENTS_MD_OPTIONS = {"linenos": "table"}
+# Menus and customizations
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+MENUITEMS = (
+    ('Articles', '/category/articles.html'),
+    ('Curated', '/category/curated.html'),
+    ('Tags', '/tags.html'),
+    ('About me', '/pages/about.html'),
+)

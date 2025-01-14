@@ -34,6 +34,7 @@ Then I stumbled upon [fastapi-problem](https://github.com/NRWLDev/fastapi-proble
 I wanted to distinguish between a `Problem` object (A Pydantic model), a `ProblemException` and a `ProblemResponse` to allow developers to either return a `Problem` object, raise a `ProblemException` or also directly return `ProblemResponse` to follow on fastapi own implementation (You can return a `dict`, raise a `HTTPException` or returns a `JSONResponse` directly). Depending on your situation, being able to do all of those and still ends up with a Problem Details error response is very convenient. The `fastapi-problem` is just providing a single `Problem` class being actually an exception. This is limiting for example if you want to add custom error handlers.
 
 ```python
+
 from fastapi_problem.error import Problem
 
 class OutOfCreditError(DomainException):
@@ -84,7 +85,7 @@ To finish on a good note, it actually handles CORS headers in error response (wh
 Finally, during one of my professional project where I had to write lot of APIs, I decided to take the opportunity to write my own library, [fastapi-problem-details](https://github.com/g0di/fastapi-problem-details). It is simple and goes straight to the point for my use case. You can find lot of examples/behaviors on the documentation. It contains the following features:
 
 - Add a `default` response to all route documented as returning a Problem Details HTTP Response
-  ![FastAPI problem details default response](/assets/images/fastapi-problem-details-default-response.png)
+  ![FastAPI problem details default response]({static}/images/fastapi-problem-details-default-response.png)
 - Add ability to raise `ProblemException` instead of `HTTPException` to returns error responses as Problem Details
 - Transform all API errors automatically into Problem Details response including: unhandled errors, validation errors and (starlette) http exceptions
 - Respect the original RFC (The `Problem` schema is aligned with what is recommended in the standard)
