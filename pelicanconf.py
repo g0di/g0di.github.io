@@ -1,21 +1,17 @@
+from urllib.parse import urljoin
+
+
 AUTHOR = 'Benoît Godard'
 SITENAME = 'Yet Another Dev Blog'
-SITEURL = ""
+SITEURL = "http://localhost:8000"
 
 PATH = "content"
 
 TIMEZONE = 'Europe/Paris'
-THEME= 'notmyidea'
+THEME= './themes/notmyidea2'
 
 DEFAULT_LANG = 'en'
 DEFAULT_DATE_FORMAT = '%Y-%m-%d'
-
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
@@ -37,3 +33,6 @@ MENUITEMS = (
     ('Tags', '/tags.html'),
     ('About me', '/pages/about.html'),
 )
+
+
+JINJA_FILTERS = { "urljoin": urljoin }
