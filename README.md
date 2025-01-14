@@ -1,25 +1,32 @@
-## Quickstart
+# G0di personal blog
 
-Install ruby
+This is the source code of my personal software engineering blog. It is hosted on github pages and use Python [Pelican] library to generate the blog as a static site
 
-```zsh
-brew install ruby@3.1
+## Installation
+
+- Python >= 3.12 is required
+- [PDM] is required
+
+Git clone the project then
+
+```bash
+pdm install
+pdm start
 ```
 
-Install project gems
+> This will build the static site and serve it locally on http://localhost:8000
 
-```zsh
-bundle install
-```
+## Configuration
 
-Build and serve the site
+Site generation configuration is defined in [pelicanconf.py](./pelicanconf.py).
+Configuration of the site actually published on github pages is defined in [publishconf.py](./publishconf.py)
 
-```zsh
-bundle exec jekyll serve
-```
+> The publish configuration extends the base configuration
 
-## Troubleshooting
+## SEO
 
-### `Can't find gem bundler (>= 0.a) with executable bundle (Gem::GemNotFoundException)`
+The generated website is automatically optimized for SEO. On build, a report is generated on project root: [seo_report.html](./seo_report.html).
+This report provide guidance to further enhance SEO for articles and pages of the site.
 
-https://bundler.io/blog/2019/05/14/solutions-for-cant-find-gem-bundler-with-executable-bundle.html
+[Pelican]: https://getpelican.com
+[PDM]: https://pdm-project.org/en/latest/
