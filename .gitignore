@@ -1,5 +1,7 @@
+__pycache__/
+.mise.toml
+.pdm-python
+.venv/
 cache/
 output/
-.venv/
-.pdm-python
-.mise.toml
+seo_report.html

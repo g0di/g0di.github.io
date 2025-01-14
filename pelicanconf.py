@@ -15,6 +15,9 @@ MENUITEMS = (
     ('About me', '/pages/about.html'),
 )
 PATH = "content"
+SEO_ARTICLES_LIMIT = 20
+SEO_ENHANCER = True
+SEO_PAGES_LIMIT = 20
 SITENAME = 'Yet Another Dev Blog'
 SITEURL = "http://localhost:8000"
 THEME= './themes/notmyidea2'

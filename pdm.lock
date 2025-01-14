@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:fae497c9188b3457bdf70f251fd229839659bc28a9a95fd84f17a24fe835a708"
+content_hash = "sha256:57fe914244d4fad4c1e1a0a9fdd2bfaf9d7b34bd38624a1e6f1b1cbe24781a78"
 
 [[metadata.targets]]
 requires_python = "==3.12.*"
@@ -25,6 +25,20 @@ dependencies = [
 files = [
     {file = "anyio-4.8.0-py3-none-any.whl", hash = "sha256:b5011f270ab5eb0abf13385f851315585cc37ef330dd88e27ec3d34d651fd47a"},
     {file = "anyio-4.8.0.tar.gz", hash = "sha256:1d9fe889df5212298c0c0723fa20479d1b94883a2df44bd3897aa91083316f7a"},
+]
+
+[[package]]
+name = "beautifulsoup4"
+version = "4.12.3"
+requires_python = ">=3.6.0"
+summary = "Screen-scraping library"
+groups = ["default"]
+dependencies = [
+    "soupsieve>1.2",
+]
+files = [
+    {file = "beautifulsoup4-4.12.3-py3-none-any.whl", hash = "sha256:b80878c9f40111313e55da8ba20bdba06d8fa3969fc68304167741bbf9e082ed"},
+    {file = "beautifulsoup4-4.12.3.tar.gz", hash = "sha256:74e3d1928edc070d21748185c46e3fb33490f22f52a3addee9aee0f4f7781051"},
 ]
 
 [[package]]
@@ -209,6 +223,21 @@ files = [
 ]
 
 [[package]]
+name = "pelican-seo"
+version = "1.2.2"
+requires_python = ">=3.6.2,<4.0"
+summary = "Pelican plugin to improve SEO (Search Engine Optimization) to reach top positions on search engines."
+groups = ["default"]
+dependencies = [
+    "beautifulsoup4<5.0,>=4.9",
+    "pelican>=4.5",
+]
+files = [
+    {file = "pelican-seo-1.2.2.tar.gz", hash = "sha256:dd86aedf1bb2cbdb32bdcade3e95be95bf18ca85947ad610099c864119100498"},
+    {file = "pelican_seo-1.2.2-py3-none-any.whl", hash = "sha256:98c0c6f30510e4f5b52343abf8c1da2bee8b52b206a3682891a6e830dc2e3215"},
+]
+
+[[package]]
 name = "pelican"
 version = "4.10.2"
 extras = ["markdown"]
@@ -329,6 +358,17 @@ groups = ["default"]
 files = [
     {file = "sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2"},
     {file = "sniffio-1.3.1.tar.gz", hash = "sha256:f4324edc670a0f49750a81b895f35c3adb843cca46f0530f79fc1babb23789dc"},
+]
+
+[[package]]
+name = "soupsieve"
+version = "2.6"
+requires_python = ">=3.8"
+summary = "A modern CSS selector implementation for Beautiful Soup."
+groups = ["default"]
+files = [
+    {file = "soupsieve-2.6-py3-none-any.whl", hash = "sha256:e72c4ff06e4fb6e4b5a9f0f55fe6e81514581fca1515028625d0f299c602ccc9"},
+    {file = "soupsieve-2.6.tar.gz", hash = "sha256:e2e68417777af359ec65daac1057404a3c8a5455bb8abc36f1a9866ab1a51abb"},
 ]
 
 [[package]]
