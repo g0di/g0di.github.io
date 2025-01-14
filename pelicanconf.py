@@ -9,7 +9,6 @@ THEME= 'notmyidea'
 
 DEFAULT_LANG = 'en'
 DEFAULT_DATE_FORMAT = '%Y-%m-%d'
-DEFAULT_PAGINATION = 10
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -37,4 +36,5 @@ MENUITEMS = (
     ('Curated', '/category/curated.html'),
     ('Tags', '/tags.html'),
     ('About me', '/pages/about.html'),
+    ('Test', '/pages/test.html'),
 )
