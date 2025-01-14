@@ -3,3 +3,4 @@ output/
 .venv/
 .pdm-python
 .mise.toml
+themes/
