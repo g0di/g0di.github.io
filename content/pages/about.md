@@ -1,7 +1,7 @@
 Title: About me
 slug: about
 
-<img style="float: left; margin-right: 1rem; border-radius: 10px" alt="Benoît Godard" src="{static}/images/benoit-godard.jpg" height=200/></picture>
+<img style="float: left; margin-right: 1rem; border-radius: 10px" alt="Benoît Godard" src="{static}/images/benoit-godard.jpg" height=200/>
 
 Hi folks,
 
