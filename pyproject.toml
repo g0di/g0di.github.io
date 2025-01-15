@@ -3,7 +3,10 @@ name = "g0di.github.io"
 version = "0.1.0"
 description = "Yet Another Dev's Blog"
 authors = [{ name = "g0di", email = "benoit.godard.p@gmail.com" }]
-dependencies = ["pelican[markdown]>=4.10.1", "invoke>=2.2.0", "livereload>=2.7.1", "pymdown-extensions>=10.14", "pelican-seo>=1.2.2"]
+dependencies = [
+  "pelican[markdown]>=4.10.1",
+  "pelican-seo>=1.2.2",
+]
 requires-python = "==3.12.*"
 readme = "README.md"
 license = { text = "MIT" }
@@ -12,4 +15,6 @@ license = { text = "MIT" }
 distribution = false
 
 [tool.pdm.scripts]
-start = "pelican -r -l"
+start = "pelican -v -r -l"
+site = "pelican -v"
+clean = "rm -rfv output && rm -rfv cache"
