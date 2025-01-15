@@ -1,5 +1,5 @@
 Title: Don't use Python's property (for bad reasons)
-Tags: python, best-practice
+Tags: python, good-practices
 Description: Explain when and how you should use Python property descriptor
 
 # Don't use Python's property (for bad reasons)
