@@ -28,5 +28,10 @@ Configuration of the site actually published on github pages is defined in [publ
 The generated website is automatically optimized for SEO. On build, a report is generated on project root: [seo_report.html](./seo_report.html).
 This report provide guidance to further enhance SEO for articles and pages of the site.
 
+Consider the following when writing articles:
+
+- If the article is not a link to someone else article, don't forget to add a `Description: ...` metadata
+- If the article is a link to someone else article, add `Save_As:` empty metadata to avoid producing a dedicated HTML file for this page
+
 [Pelican]: https://getpelican.com
 [PDM]: https://pdm-project.org/en/latest/
