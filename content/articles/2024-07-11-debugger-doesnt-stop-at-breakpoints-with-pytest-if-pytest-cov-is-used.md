@@ -1,5 +1,6 @@
 Title: Debugger doesn't stop at breakpoints with pytest if pytest-cov is used
-Tags: python, troubleshooting, pytest
+Tags: python, troubleshooting, pytest, pytest-cov
+Description: Describe why Python debugger does not work as expected and stop at breakpoints when using pytest and pytest-cov when debugging tests. It also provides a workaround.
 
 Recently, while trying to debug some of my `pytest` tests using VSCode, I discovered that my breakpoints were completely ignored and the tests never stopped. After nearly breaking my keyboard in frustration, I stumbled upon [this GitHub issue](https://github.com/microsoft/vscode-python/issues/693).
 
