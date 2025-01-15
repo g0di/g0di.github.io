@@ -2,8 +2,6 @@ Title: Don't use Python's property (for bad reasons)
 Tags: python, good-practices
 Description: Explain when and how you should use Python property descriptor
 
-# Don't use Python's property (for bad reasons)
-
 I recently stumbled upon a code from one of my coworker who is rather new to Python. He is coming from a Java/Scala background and used python's `property` decorator to mimic Java Getters/Setters. Let's see why you should not do this.
 
 ```python
