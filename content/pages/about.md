@@ -1,5 +1,7 @@
 Title: About me
-permalink: /about/
+slug: about
+
+<img style="float: left; margin-right: 1rem; border-radius: 10px" alt="Benoît Godard" src="{static}/images/benoit-godard.jpg" height=200/></picture>
 
 Hi folks,
 
