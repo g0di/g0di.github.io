@@ -22,6 +22,16 @@ SEO_ENHANCER_TWITTER_CARDS = True
 SEO_PAGES_LIMIT = 20
 SITENAME = 'Yet Another Dev Blog'
 SITEURL = "http://localhost:8000"
+STATIC_PATHS = [
+    'images',
+    'favicon.ico',
+    'apple-touch-icon.png',
+    'favicon-16x16.png',
+    'favicon-32x32.png',
+    'site.webmanifest',
+    'android-chrome-192x192.png',
+    'android-chrome-512x512.png'
+]
 SUMMARY_MAX_LENGTH = None
 SUMMARY_MAX_PARAGRAPHS = 1
 THEME= './themes/notmyidea2'
@@ -31,3 +41,5 @@ SOCIAL = (
     ("LinkedIn", "https://www.linkedin.com/in/benoit-godard-0b40a7122"),
 
 )
+
+
