@@ -1,6 +1,7 @@
 Title: Renaming files using Python script
 Tags: python, script
 Description: Discover my new Python project providing a small script for easily renaming one or several files or directories using regular expressions
+Image: https://g0di.github.io/images/benoit-godard.jpg
 
 Lately, I wanted to rename lot of files and directories on my personal server, in particular media like TV Shows episodes. As there was lot of files I decided to look for an UNIX command to ease my burden.
 Unfortunately, I could not find such command on my server (a Synology NAS) and was unable to figure out how to install additional packages on it so I decided to build my own `rename` command using a Python script.
