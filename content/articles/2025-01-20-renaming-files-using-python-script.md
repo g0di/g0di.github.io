@@ -16,6 +16,8 @@ I then installed my `rename` script using `uv` allowing me to use my rename comm
 
 The script use Python regular expressions to do replacements allowing to use capture groups which is super handy when you want to rename a large amount of TV show episodes using a same pattern.
 
+## Example
+
 For example, imagine you've got all episodes of the first season of **Squid Game** in a `Squid Game (2021)/Season 01/` directory and named like: `squid game - 01 - <episode title>.mkv` and you want to format them for being recognized properly by, let's say, Plex.
 ```bash
 rename "./Squid Game (2021)/Season 01/*.mkv" \
@@ -29,4 +31,6 @@ rename "./Squid Game (2021)/Season 01/*.mkv" \
 
 Considering the first episode is named like `squid game - 01 - Red Light, Green Light.mkv`, it will be renamed as `Squid Game (2021) - s01e01 - Red Light, Green Light.mkv`
 
-The fact that the second argument is considered as a regular expression by default can be misleasing. Maybe in the future I'll do the switch and add a dedicated flag to turns explicitly indicates that we are using a regular expression. This would prevent from having to escape special characters (like `.`) for simple use cases.
+## Additional notes
+
+The fact that the second argument is considered as a regular expression by default can be misleading. Maybe in the future I'll do the switch and add a dedicated flag to indicates that we are using a regular expression. This would prevent from having to escape special characters (like `.`) for simple use cases.
