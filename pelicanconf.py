@@ -1,13 +1,15 @@
 from urllib.parse import urljoin
 
-
 AUTHOR = 'Benoît Godard'
 DEFAULT_LANG = 'en'
 DEFAULT_DATE_FORMAT = '%Y-%m-%d'
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 JINJA_FILTERS = { "urljoin": urljoin }
-LINKS = (('fastapi-problem-details', 'https://github.com/g0di/fastapi-problem-details'),)
+LINKS = (
+    ('fastapi-problem-details', 'https://github.com/g0di/fastapi-problem-details'),
+    ('rename', 'https://github.com/g0di/rename')
+)
 MENUITEMS = (
     ('Articles', '/category/articles.html'),
     ('Curated', '/category/curated.html'),
@@ -41,5 +43,3 @@ SOCIAL = (
     ("LinkedIn", "https://www.linkedin.com/in/benoit-godard-0b40a7122"),
 
 )
-
-
