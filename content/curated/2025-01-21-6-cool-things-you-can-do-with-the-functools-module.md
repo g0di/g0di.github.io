@@ -1,4 +1,4 @@
-Title: 6 Cool Things You Can Do With The Functools Module
+Title: 6 cool things you can do with the functools module
 Tags: python, tips, functools
 Author: Bob Belderbos
 Url: https://pybit.es/articles/6-cool-things-you-can-do-with-the-functools-module/
