@@ -5,3 +5,4 @@ __pycache__/
 cache/
 output/
 seo_report.html
+.DS_Store
