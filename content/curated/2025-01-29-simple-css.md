@@ -1,5 +1,5 @@
 Title: Simple CSS
-Tags: css ux
+Tags: css, ux
 Author: Kev Quirk
 Url: https://simplecss.org/demo
 Save_As:
