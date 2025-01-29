@@ -9,7 +9,9 @@ JINJA_FILTERS = {"urljoin": urljoin}
 LINKS = (
     ("fastapi-problem-details", "https://github.com/g0di/fastapi-problem-details"),
     ("rename", "https://github.com/g0di/rename"),
+    ("media-heloper", "https://github.com/g0di/media-helper"),
 )
+LINKS_WIDGET_NAME = "Projects"
 LOGO = "https://g0di.github.io/images/benoit-godard.jpg"
 MENUITEMS = (
     ("Articles", "/category/articles.html"),
