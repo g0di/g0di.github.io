@@ -1,5 +1,5 @@
 Title: Processing large JSON files in Python without running out of memory
-Tags: python, tips
+Tags: python, how-to guide, explanation
 Author: Itamar Turner-Trauring
 Url: https://pythonspeed.com/articles/json-memory-streaming/
 Save_As:

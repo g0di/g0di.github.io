@@ -1,5 +1,5 @@
 Title: Renaming files using Python script
-Tags: python, script
+Tags: programming, python, how-to guide, script
 Description: Discover my new Python project providing a small script for easily renaming one or several files or directories using regular expressions
 Image: https://g0di.github.io/images/benoit-godard.jpg
 

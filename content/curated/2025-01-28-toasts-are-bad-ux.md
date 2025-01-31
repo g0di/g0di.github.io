@@ -1,5 +1,5 @@
 Title: Toasts are bad UX
-Tags: ux
+Tags: software, ux, explanation
 Author: Max Schmitt
 Url: https://maxschmitt.me/posts/toasts-bad-ux
 Save_As:

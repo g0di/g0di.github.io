@@ -1,5 +1,5 @@
 Title: Three Laws of Software Complexity
-Tags: software, thoughts
+Tags: software, explanation
 Author: Mahesh Balakrishnan
 Url: https://maheshba.bitbucket.io/blog/2024/05/08/2024-ThreeLaws.html
 Save_As:

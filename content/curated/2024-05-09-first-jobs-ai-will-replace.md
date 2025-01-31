@@ -1,5 +1,5 @@
 Title: The first software jobs AI will replace are...
-Tags: video, software, thoughts, A.I
+Tags: video, software, explanation, A.I
 Authors: Birgitta Böckeler, Dave Farley
 Url: https://www.youtube.com/watch?v=8SuH2PfXOn8
 Save_As:

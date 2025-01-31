@@ -1,5 +1,5 @@
 Title: Python packaging is great now, uv is all you need
-Tags: python, packaging
+Tags: programming, python, explanation
 Author: Juan Luis Cano Rodríguez
 Url: https://dev.to/astrojuanlu/python-packaging-is-great-now-uv-is-all-you-need-4i2d
 Save_As:

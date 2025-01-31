@@ -16,7 +16,7 @@ LOGO = "https://g0di.github.io/images/benoit-godard.jpg"
 MENUITEMS = (
     ("Articles", "/category/articles.html"),
     ("Curated", "/category/curated.html"),
-    ("Tags", "/tags.html"),
+    ("Categories", "/tags.html"),
     ("About me", "/pages/about.html"),
 )
 PATH = "content"

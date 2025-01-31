@@ -1,5 +1,5 @@
 Title: Execute a function until a specific value is returned
-Tags: python, tips
+Tags: programming, python, how-to guide
 Author: Rodrigo Girão Serrão
 Url: https://mathspp.com/blog/til/making-an-iterator-out-of-a-function
 Save_As:

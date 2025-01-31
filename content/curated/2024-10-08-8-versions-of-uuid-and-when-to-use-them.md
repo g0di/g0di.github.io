@@ -1,5 +1,5 @@
 Title: 8 versions of UUID and when to use them
-Tags: software, tips
+Tags: software, how-to guide, reference
 Author: Nicole Tietz-Sokolsaya
 Url: https://ntietz.com/blog/til-uses-for-the-different-uuid-versions
 Save_As:

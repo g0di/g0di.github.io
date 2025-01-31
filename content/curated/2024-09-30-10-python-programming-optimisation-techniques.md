@@ -1,5 +1,5 @@
 Title: 10 Python programming optimisation techniques.
-Tags: python, tips
+Tags: programming, python, how-to guide
 Author: James Ononiwu
 Url: https://dev.to/jamesbright/10-python-programming-optimisation-techniques-5ckf
 Save_As:

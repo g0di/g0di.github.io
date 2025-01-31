@@ -1,5 +1,5 @@
 Title: Testing Python code integration with an Azure Eventhub
-Tags: python, azure, pytest, testing, asyncio, docker
+Tags: programming, python, how-to guide, azure, pytest, testing, asyncio, docker
 Description: Discover a way to create automated tests for your Python code integration with an Azure Eventhub using pytest, asyncio, Docker and testcontainers.
 
 On one of my project I needed to create a simple API allowing clients to publish some messages into an Azure EventHub. Because authentication is ensured by a JWT we could not rely on our clients to directly publish messages to the Eventhub (and by the way I prefer abstracting this away through a HTTP API).

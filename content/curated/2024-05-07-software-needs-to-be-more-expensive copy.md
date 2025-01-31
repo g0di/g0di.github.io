@@ -1,5 +1,5 @@
 Title: Software needs to be more expensive
-Tags: open-source, software, thoughts
+Tags: open-source, software, explanation
 Author: Glyph Lefkowitz
 Url: https://blog.glyph.im/2024/03/software-needs-to-be-more-expensive.html
 Save_As:

@@ -1,5 +1,5 @@
 Title: Modern good practices for Python development
-Tags: python, good-practices
+Tags: programming, python, explanation
 Author: Stuart Ellis
 Url: https://www.stuartellis.name/articles/python-modern-practices/
 Save_As:

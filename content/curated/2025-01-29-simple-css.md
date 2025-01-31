@@ -1,10 +1,9 @@
-Title: Module itertools overview
-Tags: python, itertools, reference
-Author: Rodrigo Girão Serrão
-Url: https://mathspp.com/blog/module-itertools-overview
+Title: Simple CSS
+Tags: programming, css, ux, reference
+Author: Kev Quirk
+Url: https://simplecss.org/demo
 Save_As:
 
-There is lot of things you can do, out of the box, using Python standard library.
-Here is a great article from Rodrigo detailing the Python `itertools` module.
-I've personally discovered tons of ways to iterate over collections I could not have even imagined.
-Rule of thumb: before developing something, double check it does not already exist on the standard library.
+Sometimes you want to build a web application but you're quickly discouraged because you know you'll have to write CSS so it does not look like crap.
+If you're not CSS proficient you know it can be challenging (even using some existing frameworks).
+I present you Simple CSS, a very simple css framework (mostly classless) to use on your website to make it just looks good.

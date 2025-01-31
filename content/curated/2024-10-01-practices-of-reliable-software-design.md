@@ -1,5 +1,5 @@
 Title: Practices of reliable software design
-Tags: software
+Tags: software, explanation
 Author: kqr
 Url: https://entropicthoughts.com/practices-of-reliable-software-design
 Save_As:

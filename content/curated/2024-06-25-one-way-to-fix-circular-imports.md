@@ -1,5 +1,5 @@
 Title: One way to fix Python circular imports
-Tags: python, troubleshooting
+Tags: programming,python, how-to guide, troubleshooting
 Author: Ned Batchelder
 Url: https://nedbatchelder.com/blog/202405/one_way_to_fix_python_circular_imports.html
 Save_As:
