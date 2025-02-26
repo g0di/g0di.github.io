@@ -1,8 +1,9 @@
-Title: `bytes`: The Lesser-Known Python Built-In Sequence • And Understanding UTF-8 Encoding
-Tags: programming, python, explanation
-Author: Stephen Gruppetta
-Url: https://www.thepythoncodingstack.com/p/bytes-python-built-in-unicode-utf-8-encoding
+Title: Creating great README files for you Python projects
+Tags: programming, python, how-to guide
+Author: Leodanis Pozo Ramos
+Url: https://realpython.com/readme-python-project/
 Save_As:
 
-When using strings and bytes in Python you may, like me, stick to using utf-8 encoding for anything. When you start having some weirds characters being displayed you know its probably because its not utf-8 encoded.
-But do you know actually how this works behind the scene? Discover how Python `bytes` are working internally and does encoding affect string representations.
+A well-crafted README is essential for any Python project, yet it's too often overlooked in the professional world—despite being crucial for smooth collaboration.
+In environments where developers frequently change, a clear and structured README ensures seamless onboarding and project continuity.
+This guide walks you through best practices to make your README informative, accessible, and contribution-friendly, so your code remains useful to both current and future developers.
